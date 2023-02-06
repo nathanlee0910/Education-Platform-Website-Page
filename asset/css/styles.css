@@ -104,6 +104,7 @@ a {
 
 .nav__list-items:last-child {
     margin-left: 28px;
+    margin-right: 0;
 }
 
 .btn__signup {
@@ -117,6 +118,51 @@ a {
     opacity: 0.9;
 }
 
-.btn__signup a{
+.btn__signup a {
     color: #fff;
+}
+
+/* Header Hero */
+.hero {
+    display: flex;
+    padding-top: 65px;
+}
+
+.hero_image {
+    display: flex;
+    position: relative;
+    width: 570px;
+    height: 685px;
+}
+
+.hero_courses-stats {
+    right: 0;
+    bottom: 0;
+    width: 270px;
+    height: 244px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    background: #ffffff;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 48px;
+}
+
+.hero_courses-stats-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+}
+
+.hero_courses-stats-items .icon {
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+}
+
+.courses_desc{
+    
 }
