@@ -1,0 +1,122 @@
+:root {
+    --primary-color: #171100;
+    --secondary-color: #ffb900;
+    --title-font: "Sen", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: calc(100% - 48px);
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    color: white;
+    min-width: 118px;
+    background-color: var(--primary-color);
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 41px;
+}
+
+/* header */
+
+.header {
+    height: 900px;
+    background: #fffcf4;
+}
+
+.nav {
+    padding-top: 42px;
+    height: 49px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: var(--primary-color);
+    font-family: var(--title-font);
+    font-weight: 700;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.nav__list-items {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75em;
+    margin-right: 42px;
+    text-align: center;
+}
+
+.nav__list-items a {
+    color: #5f5b53;
+}
+
+.nav__list-items:first-child {
+    font-weight: 600;
+}
+
+.nav__list-items:first-child::after {
+    content: "";
+    display: flex;
+    position: absolute;
+    width: 12px;
+    height: 2px;
+    background: #171100;
+    border-radius: 1px;
+}
+
+.nav__list-items:hover {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.nav__list-items:last-child {
+    margin-left: 28px;
+}
+
+.btn__signup {
+    height: 49px;
+    font-weight: 600;
+    border-radius: 24.5px;
+    cursor: pointer;
+}
+
+.btn__signup:hover {
+    opacity: 0.9;
+}
+
+.btn__signup a{
+    color: #fff;
+}
