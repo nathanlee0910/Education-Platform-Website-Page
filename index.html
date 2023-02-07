@@ -18,13 +18,13 @@
 
 
 </head>
-<body>
+<body style="height: 5000px;" >
     <app>
         <!-- Header -->
-        <header class="header">
+        <header class="nav-fixed">
+            <!-- Navigation -->          
             <div class="container">
-                <!-- Navigation -->
-                <nav class="nav">
+                <div class="nav">
                     <a href="index.html" class="logo" alt="Lesson">Lesson</a>
                     <ul class="nav__list">
                         <li class="nav__list-items">
@@ -43,7 +43,11 @@
                             <a href="#!">Sign Up</a>
                         </li>
                     </ul>
-                </nav>
+                </div>
+            </div>    
+        </header > 
+        <section class="hero">
+            <div class="container">
                 <!-- Hero -->
                 <section class="hero">
                     <div class="hero_image">
@@ -68,21 +72,37 @@
                                 <div class="courses_desc">
                                     <p>20 Courses</p>
                                     <strong>UI/UX Design</strong>
-                                </ >
+                                </div >
                             </li>
                         </ul>
                     </div>
-                    <!-- <div class="hero_content">
-                        <h1 class="hero_title">Learn without limits and spread knowledge.</h1>
-                        <p class="hero_desc">Build new skills for that “this is my year” feeling with courses, certificates, and degrees from world-class universities and companies.</p>
-                        <a href="#!" class="hero_btn-cta">See Courses</a>
-                        <a href="" class="hero_icon-play">Play</a>
-                        <a href="" class="hero_btn-video">Watch Video</a>
-                    </div> -->
+                    <div class="hero_content">
+                        <h1 class="title">Learn without limits and spread knowledge.</h1>
+                        <p class="desc">Build new skills for that “this is my year” feeling with courses, certificates, and degrees from world-class universities and companies.</p>
+                        <div class="btn-list">
+                            <a href="#!" class="btn btn-cta">See Courses</a>
+                            <div class="play-btn">
+                                <a href="#!" class="icon-play">
+                                        <img src="./asset/img/Polygon-2.png" 
+                                        alt="" 
+                                        class="image">     
+                                </a>
+                                <span>Watch video</span>
+                            </div >
+                        </div>
+                        <div class="info">
+                            <p class="info-title">Recent engagement</p>
+                            <p class="info-desc">
+                                <strong>50K</strong> Students
+                            </p>
+                            <p class="info-desc">
+                                <strong>70+</strong> Courses
+                            </p> 
+                        </div>
+                    </div>
                 </section>
             </div>
-        </header>
-   
+        </section> 
    
     </app>
 </body>
